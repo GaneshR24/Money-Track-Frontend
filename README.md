@@ -11,3 +11,6 @@ This repository contains the frontend code for a money tracking application. The
 
 **•** **CRUD Operations:** Users can Add , Edit , Delete Transactions.
 
+### Demo credentials:
+
+**User Email:** user@gmail.com | **Password:** user123
