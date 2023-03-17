@@ -1,0 +1,59 @@
+.layout {
+  margin: 10px 100px 0 100px;
+}
+.header {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header-user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
+  padding: 3px 10px;
+  font-size: 17px;
+  color: #4481eb;
+  border: none;
+  border-radius: 3px;
+}
+.header-logout {
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo {
+  font-size: 30px;
+  color: white;
+  margin: 0 !important;
+}
+.username {
+  font-size: 18px;
+  color: white;
+}
+
+.content {
+  height: 85vh;
+  box-shadow: 0 0 2px gray;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ant-spin-dot-item {
+  background-color: #0A86D9 !important;
+}
+
+@media screen and (max-width: 700px) {
+  .layout {
+    margin: 0 15px;
+  }
+}
